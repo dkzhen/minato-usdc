@@ -1,0 +1,17 @@
+{
+  "name": "monito",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "5.7.0",
+    "solc": "^0.8.28"
+  }
+}
