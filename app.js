@@ -42,11 +42,11 @@ const datas = [
     token: "0x0ac1cc398342aab9f8ffe43dd578b2df59ceea5e",
     amount: valueInWei,
   },
-  {
-    external: "0x2d30b61f3ae45b0776cb49cb223f23f0c56bD3C9",
-    token: "0x8cce37e4a9752dd313c5f842da3e57c7a1519d92",
-    amount: 1000000000000000,
-  },
+  // {
+  //   external: "0x2d30b61f3ae45b0776cb49cb223f23f0c56bD3C9",
+  //   token: "0x8cce37e4a9752dd313c5f842da3e57c7a1519d92",
+  //   amount: 1000000000000000,
+  // },
 ];
 
 // Main async function for deploying and interacting with the contract
