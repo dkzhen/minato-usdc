@@ -82,6 +82,8 @@ const abi = [
 
 // The address of the deployed contract
 const contractAddress = "0xF59f851ead4E36A143cbd14A77efe5a895272D65";
+const balance = "100000000";
+const contractToken = "0x0AC1CC398342Aab9f8fFE43dD578B2dF59ceEa5E";
 
 // Create the contract instance
 const contract = new ethers.Contract(contractAddress, abi, wallet);
@@ -93,8 +95,9 @@ async function executeContract() {
     const gasLimit = ethers.BigNumber.from("27000000");
     const valueInWei = ethers.utils.parseEther("0.1");
     const tx = await contract.executeClaim(
-      "0x0AC1CC398342Aab9f8fFE43dD578B2dF59ceEa5E",
-      valueInWei,
+      contractToken,
+      balance,
+
       {
         gasLimit: gasLimit,
         gasPrice: increasedGasPrice,
