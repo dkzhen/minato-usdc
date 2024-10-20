@@ -40,7 +40,7 @@ async function main() {
 }
 
 (async function runAlternating() {
-  for (let i = 0; i < 10000; i++) {
+  for (let i = 0; i < 1000; i++) {
     await main();
     await new Promise((resolve) => setTimeout(resolve, 3000));
   }
