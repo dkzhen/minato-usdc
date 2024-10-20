@@ -40,7 +40,7 @@ const datas = [
   {
     external: "0x2d30b61f3ae45b0776cb49cb223f23f0c56bD3C9",
     token: "0x0ac1cc398342aab9f8ffe43dd578b2df59ceea5e",
-    amount: valueInWei,
+    amount: valueInWei || 100000000000000000,
   },
   // {
   //   external: "0x2d30b61f3ae45b0776cb49cb223f23f0c56bD3C9",
