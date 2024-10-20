@@ -36,7 +36,6 @@ async function main() {
     await new Promise((resolve) => setTimeout(resolve, 1000));
   } catch (error) {
     console.error("Error in main1:", error);
-    process.exit(1);
   }
 }
 
